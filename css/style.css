@@ -223,3 +223,7 @@ button:active {
     color: green;
     font-size: 10rem;
 }
+
+.table {
+    font-size: 10px;
+}
