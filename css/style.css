@@ -1,0 +1,225 @@
+.maven {
+    font-family: 'Maven Pro', sans-serif;
+}
+
+
+/* .overlay {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAGklEQVQYV2NkQICZjFD2TAYGhnQQB8wACQIAKGACnapdiUIAAAAASUVORK5CYII=     ) repeat;
+    z-index: 1040;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.border-2 {
+    border-bottom: 3px solid orangered;
+} */
+
+#greatlogo1 {
+    width: 300px;
+    height: auto;
+}
+
+#greatlogo2 {
+    width: 400px;
+    height: auto;
+}
+
+.nav-link {
+    font-size: 18px;
+}
+
+.hard {
+    top: 0;
+    margin-top: -2px;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* cuadraditos discord */
+
+
+/* cuadraditos discord */
+
+.contenedorDeRectangulos {
+    width: 90%;
+    z-index: 98;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    margin: 10px auto;
+}
+
+.rectangulo {
+    width: 280px;
+    height: 280px;
+    margin-left: -60px;
+    clip-path: polygon(50% 0%, 100% 0%, 50% 100%, 0% 100%);
+    animation-duration: 1s;
+    background-repeat: no-repeat;
+    border: 2px solid orangered;
+    margin-right: -60px;
+}
+
+#rect1 {
+    margin-left: 0rem;
+    background-image: url(../images/csgo.jpg);
+    background-position: 45% 50%;
+    background-size: 200%;
+}
+
+#rect1:hover,
+#rect2:hover,
+#rect3:hover,
+#rect4:hover,
+#rect5:hover,
+#rect6:hover {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    transition: all ease-in-out 500ms;
+}
+
+#insideRect1 {
+    background-image: url(../images/logocsgo.png);
+    background-position: 84% 10%;
+    z-index: 1;
+    padding-top: 50%;
+    background-size: 40%;
+    background-repeat: no-repeat;
+}
+
+#insideRect1a,
+#insideRect2a,
+#insideRect3a,
+#insideRect4a,
+#insideRect5a,
+#insideRect6a {
+    background-image: url(../images/Discord-Logo-Color.png);
+    background-position: 15% 98%;
+    z-index: 1;
+    padding-top: 50%;
+    background-size: 20%;
+    background-repeat: no-repeat;
+}
+
+#rect2 {
+    background-image: url(../images/lol.jpg);
+    background-position: 25% 35%;
+    background-size: 300%;
+}
+
+#insideRect2 {
+    background-image: url(../images/logolol.png);
+    background-position: 80% 10%;
+    z-index: 1;
+    padding-top: 50%;
+    background-size: 35%;
+    background-repeat: no-repeat;
+}
+
+#rect3 {
+    background-image: url(../images/lina_poster.jpg);
+    background-position-x: 50;
+    background-position-y: 0;
+    background-size: 100%;
+}
+
+#insideRect3 {
+    background-image: url(../images/logodotaglow.png);
+    background-position: 84% 10%;
+    z-index: 1;
+    padding-top: 50%;
+    background-size: 35%;
+    background-repeat: no-repeat;
+}
+
+#rect4 {
+    background-image: url(../images/over.jpg);
+    background-position: 55% 0%;
+    background-size: 300%;
+}
+
+#insideRect4 {
+    background-image: url(../images/logooverglow.png);
+    background-position: 78% 7%;
+    z-index: 1;
+    padding-top: 50%;
+    background-size: 35%;
+    background-repeat: no-repeat;
+}
+
+#rect5 {
+    background-image: url(../images/fort.jpg);
+    background-position: 60% 13%;
+    background-size: 350%;
+}
+
+#insideRect5 {
+    background-image: url(../images/logofort.png);
+    background-position: 82% 10%;
+    z-index: 1;
+    padding-top: 50%;
+    background-size: 35%;
+    background-repeat: no-repeat;
+}
+
+#rect6 {
+    background-image: url(../images/pubg.jpg);
+    background-position: 45% 5%;
+    background-size: 380%;
+}
+
+#insideRect6 {
+    background-image: url(../images/logopubg.png);
+    background-position: 80% 10%;
+    z-index: 1;
+    padding-top: 50%;
+    background-size: 35%;
+    background-repeat: no-repeat;
+}
+
+
+/* galeria */
+
+.btn:focus,
+.btn:active,
+button:focus,
+button:active {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+#image-gallery .modal-footer {
+    display: block;
+}
+
+.thumb {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.tablaxUp {
+    background-color: white;
+    color: black;
+    text-align: center;
+    max-width: 70%;
+}
+
+.tablaxDown {
+    background-color: rgb(220, 90, 0);
+    color: white;
+    text-align: center;
+    max-width: 70%;
+}
+
+.wsapp {
+    color: green;
+    font-size: 10rem;
+}
