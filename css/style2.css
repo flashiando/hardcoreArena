@@ -1,0 +1,122 @@
+html {
+    font: 22px 'Maven Pro', sans-serif;
+}
+
+
+/* menu colapsable */
+
+#menuColapsable {
+    font: 18px 'Maven Pro', sans-serif;
+}
+
+
+/* footer */
+
+.footer {
+    font: 14px 'Maven Pro', sans-serif;
+}
+
+@media (min-width: 1440px) {
+    .footer {
+        font: 18px 'Maven Pro', sans-serif;
+    }
+}
+
+
+/* rectangulos  */
+
+#rect1 {
+    background-image: url(../images/csgo400.jpg);
+    background-position: 45% 50%;
+}
+
+#rect2 {
+    background-image: url(../images/lol400.jpg);
+    background-position: 45% 10%;
+}
+
+#rect3 {
+    background-image: url(../images/lina_poster400.jpg);
+    background-position: 85% 10%;
+}
+
+@media (min-width: 768px) and (max-width:768px) {
+    #rect3 {
+        background-position: 75% 10%;
+    }
+}
+
+#rect4 {
+    background-image: url(../images/over400.jpg);
+    background-position: 60% 20%;
+}
+
+#rect5 {
+    background-image: url(../images/fort400.jpg);
+    background-position: 70% 10%;
+}
+
+#rect6 {
+    background-image: url(../images/pubg400.jpg);
+    background-position: 45% 0%;
+}
+
+@media (min-width: 768px) and (max-width:768px) {
+    #rect6 {
+        background-position: 40% 10%;
+    }
+}
+
+#rect1,
+#rect2,
+#rect3,
+#rect4,
+#rect5,
+#rect6 {
+    height: 150px;
+    transform-origin: center;
+    transition: filter 200ms linear transform 200ms linear;
+    transform: scale(1) translateZ(0);
+    -webkit-transform: scale(1) translateZ(0);
+    -moz-transform: scale(1) translateZ(0);
+    -ms-transform: scale(1) translateZ(0);
+    -o-transform: scale(1) translateZ(0);
+    -webkit-transition: filter 200ms linear transform 200ms linear;
+    -moz-transition: filter 200ms linear transform 200ms linear;
+    -ms-transition: filter 200ms linear transform 200ms linear;
+    -o-transition: filter 200ms linear transform 200ms linear;
+}
+
+@media(min-width: 768px) {
+    #rect1,
+    #rect2,
+    #rect3,
+    #rect4,
+    #rect5,
+    #rect6 {
+        height: 300px;
+        transition: all ease-in-out 500ms;
+        -webkit-transition: all ease-in-out 500ms;
+        -moz-transition: all ease-in-out 500ms;
+        -ms-transition: all ease-in-out 500ms;
+        -o-transition: all ease-in-out 500ms;
+    }
+}
+
+#rect1:hover,
+#rect2:hover,
+#rect3:hover,
+#rect4:hover,
+#rect5:hover,
+#rect6:hover {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    transition: all ease-in-out 500ms;
+    -webkit-transition: all ease-in-out 500ms;
+    -moz-transition: all ease-in-out 500ms;
+    -ms-transition: all ease-in-out 500ms;
+    -o-transition: all ease-in-out 500ms;
+}

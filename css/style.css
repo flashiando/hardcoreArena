@@ -2,21 +2,6 @@
     font-family: 'Maven Pro', sans-serif;
 }
 
-
-/* .overlay {
-    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAGklEQVQYV2NkQICZjFD2TAYGhnQQB8wACQIAKGACnapdiUIAAAAASUVORK5CYII=     ) repeat;
-    z-index: 1040;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
-}
-
-.border-2 {
-    border-bottom: 3px solid orangered;
-} */
-
 .nav-link {
     font-size: 18px;
 }
