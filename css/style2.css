@@ -159,3 +159,36 @@ html {
         height: 600px;
     }
 }
+
+
+/* tarifas */
+
+.naranja {
+    background-color: rgb(220, 90, 0);
+    font: 22px 'Maven Pro', sans-serif;
+}
+
+.miniNaranja {
+    font: 12px 'Maven Pro', sans-serif;
+}
+
+.mediaNaranja {
+    font: 18px 'Maven Pro', sans-serif;
+}
+
+@media (min-width: 1440px) {
+    .naranja {
+        background-color: rgb(220, 90, 0);
+        font: 30px 'Maven Pro', sans-serif;
+    }
+    .miniNaranja {
+        font: 20px 'Maven Pro', sans-serif;
+    }
+    .mediaNaranja {
+        font: 24px 'Maven Pro', sans-serif;
+    }
+}
+
+.ticketIcon {
+    font-size: 72px;
+}
